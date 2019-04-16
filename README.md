@@ -49,9 +49,7 @@ Used to define potions, items and npc behaviour
 e.g an sword y uses is a class decorated by a use clase
 
 ### UML Diagram
-https://drive.google.com/file/d/1cKjHIEB10ag5QVwTsS3cFscnztPfiKBH/view?usp=sharing
 
-insert UML Diagram
 
 ### Dungeon
 list of implemented dungeon objects
