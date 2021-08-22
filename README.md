@@ -59,3 +59,10 @@ list of available items and effects
 
 ## The Tests
 
+# Development
+## Environment Depedencies
+- Maven
+- OpenJDK
+- JavaFX
+## Installing depdencies
+`mvn clean javafx:run`
