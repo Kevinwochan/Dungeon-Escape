@@ -1,8 +1,9 @@
 package controller;
 
-import java.awt.event.ActionEvent;
+import javafx.event.ActionEvent;
 
 import javafx.fxml.FXML;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import project.Core;
 

@@ -1,4 +1,4 @@
-package application;
+package main;
 
 import java.io.IOException;
 
@@ -22,7 +22,7 @@ public class Main extends Application {
         }
     	// comment out the block of code you want to test
 		Screen welcomeScreen = new Screen(primaryStage, "Welcome", "view/Welcome.fxml");
-        WelcomeController welcomeController = new WelcomeController(primaryStage );
+        WelcomeController welcomeController = new WelcomeController(primaryStage);
         welcomeScreen.start(welcomeController);
     	
     	/*

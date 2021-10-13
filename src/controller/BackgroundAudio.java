@@ -1,6 +1,5 @@
 package controller;
-import java.applet.AudioClip;
-
+import javafx.scene.media.AudioClip;
 import javafx.concurrent.Task;
 
 final class BackgroundAudio extends Task<Object>{

@@ -2,8 +2,7 @@ package controller;
 
 import java.io.File;
 
-import javax.print.attribute.standard.Media;
-
+import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
 public class defaultSettings {

@@ -4,6 +4,7 @@ package controller;
 
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
+import javafx.scene.control.Label;
 
 public class endController extends Controller {
 	

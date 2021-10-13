@@ -1,9 +1,9 @@
 package controller;
-import java.awt.Image;
-import java.awt.event.ActionEvent;
+import javafx.scene.image.Image;
+import javafx.event.ActionEvent;
 import java.io.IOException;
 
-import javax.swing.text.html.ImageView;
+import javafx.scene.image.ImageView;
 
 import javafx.fxml.FXML;
 import javafx.scene.layout.GridPane;

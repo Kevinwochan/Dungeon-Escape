@@ -1,6 +1,6 @@
 package controller;
 
-import java.awt.event.ActionEvent;
+import javafx.event.ActionEvent;
 import java.io.IOException;
 
 import javafx.fxml.FXML;
