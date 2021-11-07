@@ -5,7 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import project.Core;
+import model.Core;
 
 public class settingsController extends Controller{
 	Core core;

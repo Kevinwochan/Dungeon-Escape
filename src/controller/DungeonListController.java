@@ -10,11 +10,11 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.SelectionMode;
 import javafx.stage.Stage;
-import project.Core;
-import project.dungeon.Dungeon;
-import project.dungeon.puzzles.Puzzle;
-import project.menus.PuzzleGame;
-import project.menus.State;
+import model.Core;
+import model.dungeon.Dungeon;
+import model.dungeon.puzzles.Puzzle;
+import model.menus.PuzzleGame;
+import model.menus.State;
 
 /*
  * Pick a dungeon to play or design

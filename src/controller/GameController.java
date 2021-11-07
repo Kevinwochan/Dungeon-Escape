@@ -3,12 +3,12 @@ package controller;
 import javafx.fxml.FXML;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import project.Core;
-import project.dungeon.Dungeon;
-import project.dungeon.dungeonoperations.MapCoordinate;
-import project.dungeon.puzzles.Puzzle;
-import project.dungeon.tiles.MazeTile;
-import project.menus.PuzzleGame;
+import model.Core;
+import model.dungeon.Dungeon;
+import model.dungeon.dungeonoperations.MapCoordinate;
+import model.dungeon.puzzles.Puzzle;
+import model.dungeon.tiles.MazeTile;
+import model.menus.PuzzleGame;
 
 public class GameController extends Controller {
 	@FXML 

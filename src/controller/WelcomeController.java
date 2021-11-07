@@ -3,11 +3,9 @@ import javafx.event.ActionEvent;
 
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
-import project.Core;
-import project.menus.DesignState;
-import project.menus.PuzzleState;
-
-//import com.sun.corba.se.impl.ior.NewObjectKeyTemplateBase;
+import model.Core;
+import model.menus.DesignState;
+import model.menus.PuzzleState;
 
 public class WelcomeController extends Controller{
 	Core core;
@@ -15,8 +13,6 @@ public class WelcomeController extends Controller{
 	public WelcomeController(Stage s) {
 		super(s);
 		this.core = Core.getCore();
-	    //Thread thread = new Thread(new BackgroundAudio());
-	    //thread.start();
 	}
 	
 	@FXML
@@ -51,6 +47,5 @@ public class WelcomeController extends Controller{
 		Screen load = new Screen(super.getS(), "Display Settings", "view/Settings.fxml");
 		settingsController controller = new settingsController(super.getS());
 		load.start(controller);
-
 	}
 }

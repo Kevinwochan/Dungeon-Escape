@@ -8,16 +8,16 @@ import javafx.scene.image.ImageView;
 import javafx.fxml.FXML;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
-import project.Core;
-import project.dungeon.Dungeon;
-import project.dungeon.actors.player.Player;
-import project.dungeon.dungeonObjects.DungeonObject;
-import project.dungeon.dungeonObjects.items.Item;
-import project.dungeon.dungeonoperations.MapCoordinate;
-import project.dungeon.puzzles.Puzzle;
-import project.dungeon.tiles.MazeTile;
-import project.menus.DesignState;
-import project.menus.PuzzleGame;
+import model.Core;
+import model.dungeon.Dungeon;
+import model.dungeon.actors.player.Player;
+import model.dungeon.dungeonObjects.DungeonObject;
+import model.dungeon.dungeonObjects.items.Item;
+import model.dungeon.dungeonoperations.MapCoordinate;
+import model.dungeon.puzzles.Puzzle;
+import model.dungeon.tiles.MazeTile;
+import model.menus.DesignState;
+import model.menus.PuzzleGame;
 
 //import sun.awt.image.BufferedImageGraphicsConfig;
 

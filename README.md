@@ -5,6 +5,12 @@
 - View: Responsible for translating user interactions into beep boop bop instructions and presenting information intuitively
 - Controller: A centralised interface that takes beep boop bop instructions and delegates the change to models
 
+More concretely
+- View: user clicks "Play Now" on the JavaFX GUI, the view tells the GameController to start a game
+- Controller: the controller uses the DungeonModel's class method .PlayNow()
+- Model: The DungeonModel's method .PlayNow() changes the model's state to "Playing" and begins generating a new Dungeon
+
+
 ## Getting Started
 ### Playing the game
 Run using the Main Class file in terminal or eclipse

@@ -5,11 +5,11 @@ import java.io.IOException;
 
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
-import project.Core;
-import project.menus.DesignDungeon;
-import project.menus.DesignLoad;
-import project.menus.PuzzleGame;
-import project.menus.PuzzleLoad;
+import model.Core;
+import model.menus.DesignDungeon;
+import model.menus.DesignLoad;
+import model.menus.PuzzleGame;
+import model.menus.PuzzleLoad;
 
 /*
  * Pick between loading a puzzle or a new puzzle (for design mode and play mode)

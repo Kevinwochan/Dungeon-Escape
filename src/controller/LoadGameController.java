@@ -5,9 +5,9 @@ import java.io.IOException;
 
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
-import project.Core;
-import project.menus.PuzzleGame;
-import project.menus.PuzzleLoad;
+import model.Core;
+import model.menus.PuzzleGame;
+import model.menus.PuzzleLoad;
 
 /*
  * 

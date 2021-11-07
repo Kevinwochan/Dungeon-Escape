@@ -6,8 +6,8 @@ import controller.Screen;
 import controller.WelcomeController;
 import javafx.application.Application;
 import javafx.stage.Stage;
-import project.Core;
-import project.dungeon.Dungeon;
+import model.Core;
+import model.dungeon.Dungeon;
 
 public class Main extends Application {
 
