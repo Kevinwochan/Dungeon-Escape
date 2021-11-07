@@ -1,4 +1,9 @@
-# COMP2511 Group Project
+# Dungeon Escape
+
+## The Model View Controller (MVC)
+- Model: Defines what the program knows and how it changes what it knows 
+- View: Responsible for translating user interactions into beep boop bop instructions and presenting information intuitively
+- Controller: A centralised interface that takes beep boop bop instructions and delegates the change to models
 
 ## Getting Started
 ### Playing the game
